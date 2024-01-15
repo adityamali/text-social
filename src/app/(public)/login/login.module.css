@@ -1,0 +1,87 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    height: 100vh;
+    width: 50%;
+    /* background-color: var(--bg-secondary); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(var(--brand-primary), var(--brand-secondary));
+    color: var(--bg-primary);
+}
+
+.left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.login h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    gap: 1rem;
+}
+
+.loginForm input {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-primary);
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.loginForm input:focus {
+    border: 1px solid var(--border-secondary);
+}
+
+.loginForm button {
+    padding: 1rem;
+    margin-top: 20px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: var(--brand-primary);
+    color: var(--text-alternate);
+    cursor: pointer;
+    width: 20rem;
+    border-radius: 100px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1), 0.2s ease-in-out;
+}
+
+.loginForm button:hover {
+    background-color: var(--brand-hover);
+}
+
+#change {
+    color: var(--link-primary);
+}
+
+#change:link {
+    color: var(--link-primary);
+}
+
+#change:visited {
+    color: var(--link-visited);
+}
