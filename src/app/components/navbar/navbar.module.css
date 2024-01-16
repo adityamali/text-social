@@ -27,10 +27,17 @@
 .links {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 100%;
-    gap: -1rem;
+    justify-content: center;
+    /* height: 100%; */
+    /* width: 100%; */
+    gap: 1rem;
+    background-color: var(--text-primary), 0.7;
+    backdrop-filter: blur(20px);
+    border-radius: 100px;
+    padding: 0 1rem;
+    box-shadow:
+        inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    /* border: #333333 1px solid; */
 }
 
 .links button {
@@ -38,15 +45,22 @@
     border: none;
     color: var(--text-primary);
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.7rem;
+    font-weight: 300;
     height: 100%;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    border-radius: 500px;
 
+}
+
+.links button:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-alternate);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .search {
