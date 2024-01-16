@@ -24,13 +24,13 @@ function Navbar() {
         </div>
         {/* Links */}
         <div className={styles.links}>
-            <Link href="/"><button> <Image src={home} alt="" /> {Home}</button></Link>
-            <Link href="/notifs"><button> <Image src={bell} alt="" /> {Notifications}</button></Link>
-            <Link href="/events"><button> <Image src={events} alt='' /> {Events}</button></Link>
-            <Link href="/projects"><button> <Image src={project} alt="" /> {Projects}</button></Link>
-            <Link href="/communities"><button> <Image src={communities} alt="" /> {Communities}</button></Link>
-            <Link href="/bookmarks"><button> <Image src={bookmarks} alt="" /> {Bookmarks}</button></Link>
-            <Link href="/settings"><button> <Image src={cog} alt="" /> {Settings}</button></Link>
+            <Link href="/"><button> <Image src={home} alt="" /> Home</button></Link>
+            <Link href="/notifs"><button> <Image src={bell} alt="" /> Notifications</button></Link>
+            <Link href="/events"><button> <Image src={events} alt='' /> Events</button></Link>
+            <Link href="/projects"><button> <Image src={project} alt="" /> Projects</button></Link>
+            <Link href="/communities"><button> <Image src={communities} alt="" /> Communities</button></Link>
+            <Link href="/bookmarks"><button> <Image src={bookmarks} alt="" /> Bookmarks</button></Link>
+            <Link href="/settings"><button> <Image src={cog} alt="" /> Settings</button></Link>
         </div>
         {/* Search */}
         <div className={styles.search}>
